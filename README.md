@@ -34,10 +34,10 @@ Does this look good to you?
    
 5.	Top Performing Stores:
 •	The top-performing stores are Store 2, Store 4, Store 13, Store 14, and Store 20.
-   ![Image](https://github.com/user-attachments/assets/754b1d3e-7eea-4294-a1e5-3ba3e2a3a486)
+
+![Image](https://github.com/user-attachments/assets/754b1d3e-7eea-4294-a1e5-3ba3e2a3a486)
 7.	Correlation with Fuel Prices:
 •	Weekly sales have a very weak negative correlation with fuel prices, suggesting that changes in fuel prices have a slight impact on weekly sales.
-
 ![Image](https://github.com/user-attachments/assets/643c67a2-68cb-4614-815e-69cf3e8901b2)
 
 **4	Recommendations**
