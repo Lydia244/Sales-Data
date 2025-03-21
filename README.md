@@ -24,8 +24,11 @@ Does this look good to you?
 **4	Key Insights**
 1.	Holiday Seasons:
 •	Sales are higher during holiday seasons across the three years analyzed, indicating a significant increase in sales during these periods.
+
 ![Image](https://github.com/user-attachments/assets/8dea61b7-29a9-445d-9658-9c48f77697c8)
+
 ![Image](https://github.com/user-attachments/assets/49b8275d-86ab-4cda-9012-36eee8f83ee8)
+
 3.	Seasonal Sales Trends:
 •	2010: Spring season had the highest sales.
 •	2011: Autumn season had the highest sales.
