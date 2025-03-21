@@ -6,7 +6,6 @@ Data Source: Kaggle.com
 
 The is Walmart weekly sales data from Kaggle. It is an American multinational retail corporation .
 
-Dashboard link:https://app.powerbi.com/reportEmbed?reportId=e5903450-427f-4717-b4e5-6993bb45ffea&autoAuth=true&ctid=e7942974-9738-4a4a-b646-2ab90f79db0f
 
 **2	Objectives**
 The overall goal is to design an interactive dashboard using Power bi that will show the above insights.
