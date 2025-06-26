@@ -61,7 +61,7 @@ Weeks with moderate fuel prices (~\$3.00–\$3.50) tend to align with higher sal
 # 🛠️ Getting Started
 
 ```bash
-git clone https://github.com/your-username/walmart-sales-insights.git
+git clone https://github.com/Lydia244/walmart-sales-insights.git
 cd walmart-sales-insights
 ```
 
