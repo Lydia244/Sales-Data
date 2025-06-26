@@ -1,55 +1,110 @@
-# Walmart Sales
+Walmart Sales Insights
+A Power BI–based analysis of Walmart’s weekly sales performance across stores, seasons, and holiday periods, uncovering key trends and drivers of revenue.
 
-**1	Walmart Sales Analysis**
+🗂️ Project Structure
+bash
+Copy
+Edit
+├── data/
+│   ├── Walmart_Sales.xlsx        # Raw weekly sales data
+│   └── Walmart sales insight.pdf # Exported report (Power BI snapshots) :contentReference[oaicite:0]{index=0}
+├── reports/
+│   └── dashboards/               # Power BI .pbix files and exported visuals
+├── README.md                     # This file
+└── LICENSE
+🚀 Overview
+This project explores Walmart’s store-level weekly sales from 2010 to 2012. Using Power BI, it answers:
 
-Data Source: Kaggle.com
+Top‐performing stores by total revenue
 
-The is Walmart weekly sales data from Kaggle. It is an American multinational retail corporation .
+Seasonal trends in sales (Autumn, Spring, Summer, Winter)
 
+Holiday vs. non-holiday average and total weekly sales
 
-**2	Objectives**
-The overall goal is to design an interactive dashboard using Power bi that will show the above insights.
-1.	Identify the regions with the highest sales.
-2.	Identify the top-performing stores.
-3.	Determine if sales are impacted by holiday seasons.
-4.	Assess if the increase in fuel prices has an impact on sales.
+Fuel price correlation with weekly sales
 
-**3 Steps Taken:**
-1.	Data was sourced from Kaggle.com and cleaned to remove any possible duplicates.
-2.	Key insights were identified from the data, and conditions were added to determine the season.
-3.	The cleaned data was connected to Power BI, where DAX measures were applied.
-4.	Visual representations were created using scatter plots, line graphs, and column graphs.
-Does this look good to you?
+📊 Methodology
+Data ingestion
+– Loaded Walmart_Sales.xlsx into Power BI Desktop.
 
-**4	Key Insights**
-1.	Holiday Seasons:
-•	Sales are higher during holiday seasons across the three years analyzed, indicating a significant increase in sales during these periods.
-![Image](https://github.com/user-attachments/assets/8dea61b7-29a9-445d-9658-9c48f77697c8)
-![Image](https://github.com/user-attachments/assets/49b8275d-86ab-4cda-9012-36eee8f83ee8)
-3.	Seasonal Sales Trends:
-•	2010: Spring season had the highest sales.
-•	2011: Autumn season had the highest sales.
-•	2012: Summer season had the highest sales.
-![Image](https://github.com/user-attachments/assets/6a8b01b2-569d-47e9-b6fd-bb626192ecb5)
-   
-5.	Top Performing Stores:
-•	The top-performing stores are Store 2, Store 4, Store 13, Store 14, and Store 20.
+Data cleaning & modeling
+– Ensured date fields, numerical types, and holiday flags were correctly parsed.
 
-![Image](https://github.com/user-attachments/assets/754b1d3e-7eea-4294-a1e5-3ba3e2a3a486)
-7.	Correlation with Fuel Prices:
-•	Weekly sales have a very weak negative correlation with fuel prices, suggesting that changes in fuel prices have a slight impact on weekly sales.
-![Image](https://github.com/user-attachments/assets/643c67a2-68cb-4614-815e-69cf3e8901b2)
+Visualizations
+– Bar charts for top stores and seasonal totals
+– Line charts comparing holiday vs. non-holiday sales
+– Scatter/line analysis of weekly sales vs. fuel price
 
-**4	Recommendations**
-1.	Leverage Holiday Seasons:
-•	Increase marketing efforts and promotions during holiday seasons to capitalize on the higher sales potential.
-•	Stock up on popular items and ensure adequate staffing to handle the increased customer traffic.
-2.	Seasonal Strategies:
-•	Analyze the factors contributing to higher sales in specific seasons and replicate successful strategies in other seasons.
-•	Consider launching seasonal promotions and events to boost sales during lower-performing periods.
-3.	Focus on Top Performing Stores:
-•	Invest in the top performing stores (Stores 2, 4, 13, 14, and 20) by enhancing their inventory, improving customer service, and offering exclusive deals.
-•	Study the practices of these stores and implement similar strategies in other locations to improve overall performance.
-4.	Monitor Fuel Prices:
-•	Although the correlation is weak, keep an eye on fuel price trends and consider offering promotions or discounts on fuel-efficient products during periods of high fuel prices.
+Key metrics
+– Total sales per store
+– Sum of weekly sales by year and season
+– Average weekly sales for holiday vs. non-holiday periods 
 
+🔑 Key Insights
+Top Five Stores
+Stores 20, 4, 14, 13, and 2 contributed the highest aggregate sales (e.g., Store 20: $301,397,792.46). 
+
+Seasonality
+
+2010: $569.6 M
+
+2011: $650.7 M
+
+2012: $668.6 M
+Summer and Winter show the strongest peaks. 
+
+Holiday Impact
+
+Holidays average $1.11 M/week vs. $1.03 M/week on non-holidays.
+
+Total holiday sales spike noticeably in Q4. 
+
+Fuel Price Correlation
+
+Weeks with moderate fuel prices (~$3.00–$3.50) tend to align with higher sales.
+
+⚙️ Requirements
+Power BI Desktop (latest)
+
+Microsoft Excel (for .xlsx)
+
+Windows 10 or later (for best compatibility)
+
+🛠️ Getting Started
+Clone the repo
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/walmart-sales-insights.git
+cd walmart-sales-insights
+Open the Power BI report
+– Launch Power BI Desktop and load reports/dashboards/Walmart_Sales_Insights.pbix.
+
+Refresh data
+– In Power BI, click Refresh to pull in any updates from data/Walmart_Sales.xlsx.
+
+💡 Usage
+Interact with filters by Store, Season, Holiday_Flag, and Date slicers.
+
+Export charts or underlying data tables for further analysis.
+
+Customize metrics by adding new measures in DAX (e.g., year-over-year growth).
+
+🤝 Contributing
+Contributions are welcome! Please:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature/awesome-insight)
+
+Commit your changes (git commit -m "Add seasonal forecast")
+
+Push to your branch (git push origin feature/awesome-insight)
+
+Open a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+
+Crafted by Lydia Gezahegn – Monitoring, Evaluation & Learning Analyst
